@@ -10,9 +10,6 @@
     { "enabled": true, "maxRewardNFTs": 10000, "rewardedNFTs": 9721, "harvestCost": 0, "maxUsers": 250, "currentUsers": 250, "stakingNFTLevel": 5, "stakingNFTMinumumRarity": 3, "bestRewardTime": "21600", "rewardTimeMultiplier": 120 },
     { "enabled": true, "maxRewardNFTs": 10000, "rewardedNFTs": 124, "harvestCost": 0, "maxUsers": 1000, "currentUsers": 337, "stakingNFTLevel": 5, "stakingNFTMinumumRarity": 4, "bestRewardTime": "21600", "rewardTimeMultiplier": 150 }
   ],
-  "getItem": {
-    "_id": 0, "number": 1, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0
-  },
   "getOwnerItems": [
     { "_id": 0, "number": 1, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 },
     { "_id": 1, "number": 2, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 },
