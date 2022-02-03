@@ -1,14 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "pools": [
+    { "lpToken": "0x0000000000000000000000000000000000001010", "allocPoint": "10", "depositFee": 0, "harvestInterval": "21600", "earlyWithdrawalInterval": 0, "earlyWithdrawalFee": 0, "harvestFee": 0, "nftLevel": 0 },
+    { "lpToken": "0x0d962A1A2A27B402e4D84772dea65Ac8592Eb6bF", "allocPoint": "5", "depositFee": 0, "harvestInterval": "43200", "earlyWithdrawalInterval": 0, "earlyWithdrawalFee": 0, "harvestFee": 0, "nftLevel": 0 },
+    { "lpToken": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174", "allocPoint": "20", "depositFee": 0, "harvestInterval": "43200", "earlyWithdrawalInterval": 0, "earlyWithdrawalFee": 0, "harvestFee": 0, "nftLevel": 3 },
+    { "lpToken": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6", "allocPoint": "10", "depositFee": 0, "harvestInterval": "43200", "earlyWithdrawalInterval": 0, "earlyWithdrawalFee": 0, "harvestFee": 0, "nftLevel": 4 }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "nftpools": [
+    { "enabled": true, "maxRewardNFTs": 0, "rewardedNFTs": 0, "harvestCost": 0, "maxUsers": 0, "currentUsers": 0, "stakingNFTLevel": 3, "stakingNFTMinumumRarity": 2, "bestRewardTime": "21600", "rewardTimeMultiplier": 100 },
+    { "enabled": true, "maxRewardNFTs": 10000, "rewardedNFTs": 9721, "harvestCost": 0, "maxUsers": 250, "currentUsers": 250, "stakingNFTLevel": 5, "stakingNFTMinumumRarity": 3, "bestRewardTime": "21600", "rewardTimeMultiplier": 120 },
+    { "enabled": true, "maxRewardNFTs": 10000, "rewardedNFTs": 124, "harvestCost": 0, "maxUsers": 1000, "currentUsers": 337, "stakingNFTLevel": 5, "stakingNFTMinumumRarity": 4, "bestRewardTime": "21600", "rewardTimeMultiplier": 150 }
   ],
-  "profile": {
-    "name": "typicode"
+  "getItem": {
+    "_id": 0, "number": 1, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0
+  },
+  "getOwnerItems": [
+    { "_id": 0, "number": 1, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 },
+    { "_id": 1, "number": 2, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 },
+    { "_id": 3, "number": 1, "value": "1000000000000000000", "variant": 2, "rarity": 3, "level": 2, "special": 0 },
+    { "_id": 4, "number": 1, "value": "650000000000000000", "variant": 3, "rarity": 2, "level": 2, "special": 1 },
+    { "_id": 5, "number": 1, "value": "5000000000000000000", "variant": 4, "rarity": 2, "level": 3, "special": 0 },
+    { "_id": 6, "number": 1, "value": "10000000000000000000", "variant": 5, "rarity": 4, "level": 3, "special": 0 },
+    { "_id": 7, "number": 1, "value": "40000000000000000000", "variant": 6, "rarity": 3, "level": 4, "special": 0 },
+    { "_id": 8, "number": 1, "value": "150000000000000000000", "variant": 7, "rarity": 2, "level": 5, "special": 0 },
+    { "_id": 9, "number": 1, "value": "250000000000000000000", "variant": 8, "rarity": 1, "level": 6, "special": 0 },
+    { "_id": 12144, "number": 117, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 }
+  ],
+  "getOddsForLevelCrafting": [5000, 3000, 1500, 500],
+  "account": {
+    "tokens": "250000000000000000000",
+    "address": "0x27708801002c2a01df",
+    "refferer": "0x1f6e11700c9dfbe894",
+    "refferals": [
+      "0x6fc7ed2385372a18ds",
+      "0x1404d7bee62a3d4f3f",
+      "0x98e9d288743839e96d"
+    ]
   }
 }
