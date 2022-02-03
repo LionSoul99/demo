@@ -25,7 +25,6 @@
     { "_id": 9, "number": 1, "value": "250000000000000000000", "variant": 8, "rarity": 1, "level": 6, "special": 0 },
     { "_id": 12144, "number": 117, "value": "200000000000000000", "variant": 1, "rarity": 1, "level": 1, "special": 0 }
   ],
-  "getOddsForLevelCrafting": [5000, 3000, 1500, 500],
   "account": {
     "tokens": "250000000000000000000",
     "address": "0x27708801002c2a01df",
